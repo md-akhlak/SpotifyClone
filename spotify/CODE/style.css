@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    font-family: 'ubuntu' , sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 55px;
+    background-color: black;
+    color: white;
+
+
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 45px;
+    padding: 0 6px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
